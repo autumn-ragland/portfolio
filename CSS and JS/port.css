@@ -176,10 +176,10 @@ td{
 /************************************************************/
 /*PROJECTS*/
 /*projects grid*/
-.projectImageResize{
-    width:100%;
-    height: auto;
-}
+/*.projectImageResize{*/
+/*    width:100%;*/
+/*    height: auto;*/
+/*}*/
 .container3{
     display: grid;
     grid-template-columns: auto;
