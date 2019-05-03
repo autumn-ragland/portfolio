@@ -409,6 +409,22 @@ td{
     grid-row: 9;
     margin: 1% 1% 1% 1%;
 }
+
+.reflectionSection14{
+    grid-column: 3/4;
+    grid-row: 9;
+    margin: 1% 1% 1% 1%;
+}
+.reflectionSection15{
+    grid-column: 2/3;
+    grid-row: 10;
+    margin: 1% 1% 1% 1%;
+}
+.reflectionSection16{
+    grid-column: 3/4;
+    grid-row: 10;
+    margin: 1% 1% 1% 1%;
+}
 .container4>.theNextPage{
     position: fixed;
     top: 50%;
