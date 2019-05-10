@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca128eb7-f601-4349-ab98-cf4a6a503ff9" name="Default Changelist" comment="" />
+    <list default="true" id="ca128eb7-f601-4349-ab98-cf4a6a503ff9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/case_studies/twitter_project.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/case_studies/twitter_project.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/case_studies/wiki_project.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/case_studies/wiki_project.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +31,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-418">
+            <state relative-caret-position="38">
               <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
             </state>
           </provider>
@@ -36,17 +40,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/reflections.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="168" column="41" lean-forward="true" selection-start-line="168" selection-start-column="41" selection-end-line="168" selection-end-column="41" />
+            <state relative-caret-position="3192">
+              <caret line="168" column="41" selection-start-line="168" selection-start-column="41" selection-end-line="168" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/projects.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="931">
+              <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/case_studies/wiki_project.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="39" column="105" selection-start-line="39" selection-start-column="105" selection-end-line="39" selection-end-column="105" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/projects.html">
+        <entry file="file://$PROJECT_DIR$/pages/case_studies/twitter_project.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="49" column="14" lean-forward="true" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+            <state relative-caret-position="296">
+              <caret line="38" column="47" lean-forward="true" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -54,8 +76,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSS and JS/port.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="181" column="1" lean-forward="true" selection-start-line="181" selection-start-column="1" selection-end-line="181" selection-end-column="1" />
+            <state relative-caret-position="3439">
+              <caret line="181" column="1" selection-start-line="181" selection-start-column="1" selection-end-line="181" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -78,12 +100,12 @@
         <option value="$PROJECT_DIR$/pages/skills.html" />
         <option value="$PROJECT_DIR$/pages/resume.html" />
         <option value="$PROJECT_DIR$/pages/case_studies/case_study_template.html" />
-        <option value="$PROJECT_DIR$/pages/case_studies/wiki_project.html" />
         <option value="$PROJECT_DIR$/pages/index.html" />
-        <option value="$PROJECT_DIR$/pages/case_studies/twitter_project.html" />
         <option value="$PROJECT_DIR$/CSS and JS/port.css" />
         <option value="$PROJECT_DIR$/pages/reflections.html" />
         <option value="$PROJECT_DIR$/pages/projects.html" />
+        <option value="$PROJECT_DIR$/pages/case_studies/wiki_project.html" />
+        <option value="$PROJECT_DIR$/pages/case_studies/twitter_project.html" />
       </list>
     </option>
   </component>
@@ -94,9 +116,8 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="800" />
     <option name="y" value="25" />
-    <option name="width" value="800" />
+    <option name="width" value="1600" />
     <option name="height" value="822" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -119,12 +140,18 @@
               <item name="portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="case_studies" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -132,7 +159,7 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.10.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/imported files" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../MERN/project/project3-mern-autumn-ragland" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -178,7 +205,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1600" height="822" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.31034482" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.3101673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -192,7 +219,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3145743" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.14430015" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -249,13 +276,6 @@
         <state relative-caret-position="-399" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/case_studies/wiki_project.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1881">
-          <caret line="99" column="59" selection-start-line="99" selection-start-column="59" selection-end-line="99" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/case_studies/case_study_template.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -265,36 +285,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-418">
+        <state relative-caret-position="38">
           <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/case_studies/twitter_project.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2038">
-          <caret line="122" column="7" selection-start-line="122" selection-start-column="7" selection-end-line="122" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS and JS/port.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="181" column="1" lean-forward="true" selection-start-line="181" selection-start-column="1" selection-end-line="181" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/reflections.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="168" column="41" lean-forward="true" selection-start-line="168" selection-start-column="41" selection-end-line="168" selection-end-column="41" />
+        <state relative-caret-position="3192">
+          <caret line="168" column="41" selection-start-line="168" selection-start-column="41" selection-end-line="168" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/projects.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="49" column="14" lean-forward="true" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+        <state relative-caret-position="931">
+          <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS and JS/port.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3439">
+          <caret line="181" column="1" selection-start-line="181" selection-start-column="1" selection-end-line="181" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/case_studies/wiki_project.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="39" column="105" selection-start-line="39" selection-start-column="105" selection-end-line="39" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/case_studies/twitter_project.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="38" column="47" lean-forward="true" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
         </state>
       </provider>
     </entry>
