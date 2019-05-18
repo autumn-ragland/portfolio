@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca128eb7-f601-4349-ab98-cf4a6a503ff9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CSS and JS/port.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS and JS/port.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/reflections.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/reflections.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/skills.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/skills.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,11 +53,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/reflections.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="84">
               <caret line="175" column="117" lean-forward="true" selection-start-line="175" selection-start-column="117" selection-end-line="175" selection-end-column="117" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/skills.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="41" column="52" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -100,11 +108,11 @@
         <option value="$PROJECT_DIR$/pages/index.html" />
         <option value="$PROJECT_DIR$/pages/projects.html" />
         <option value="$PROJECT_DIR$/pages/case_studies/twitter_project.html" />
-        <option value="$PROJECT_DIR$/pages/skills.html" />
         <option value="$PROJECT_DIR$/pages/case_studies/wiki_project.html" />
         <option value="$PROJECT_DIR$/pages/resume.html" />
         <option value="$PROJECT_DIR$/CSS and JS/port.css" />
         <option value="$PROJECT_DIR$/pages/reflections.html" />
+        <option value="$PROJECT_DIR$/pages/skills.html" />
       </list>
     </option>
   </component>
@@ -135,6 +143,11 @@
             <path>
               <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -266,13 +279,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/skills.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="59" column="17" lean-forward="true" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -312,6 +318,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="175" column="117" lean-forward="true" selection-start-line="175" selection-start-column="117" selection-end-line="175" selection-end-column="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/skills.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="41" column="52" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
         </state>
       </provider>
     </entry>
