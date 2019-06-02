@@ -453,6 +453,16 @@ td{
     grid-row: 13;
     margin: 1% 1% 1% 1%;
 }
+.reflectionSection20{
+    grid-column: 3/4;
+    grid-row: 13;
+    margin: 1% 1% 1% 1%;
+}
+.reflectionSection21{
+    grid-column: 2/3;
+    grid-row: 14;
+    margin: 1% 1% 1% 1%;
+}
 .container4>.theNextPage{
     position: fixed;
     top: 50%;
