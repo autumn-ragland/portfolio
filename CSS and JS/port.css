@@ -218,7 +218,11 @@ td{
     grid-row: 4;
     margin: 12px;
 }
-
+.container3>.projectSection5{
+    grid-column: 1/2;
+    grid-row: 5;
+    margin: 12px;
+}
 .container3>.theNextPage{
     position: fixed;
     top: 50%;
@@ -460,6 +464,11 @@ td{
 }
 .reflectionSection21{
     grid-column: 2/3;
+    grid-row: 14;
+    margin: 1% 1% 1% 1%;
+}
+.reflectionSection22{
+    grid-column: 3/4;
     grid-row: 14;
     margin: 1% 1% 1% 1%;
 }
