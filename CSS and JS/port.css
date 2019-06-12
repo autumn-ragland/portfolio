@@ -270,7 +270,7 @@ td{
     background: rgba(211, 211, 211, 0.25);
     padding: 15%;
     font-size: 20px;
-    text-align: justify;
+    /*text-align: justify;*/
 }
 .caseStudyContainer>.description{
     grid-column: 1/3;
@@ -305,7 +305,7 @@ td{
     grid-column: 2;
     grid-row: 1;
     margin: 12px;
-    background: rgba(211, 211, 211, 0.26);
+    background: rgba(211, 211, 211, 0.25);
     padding: 5%;
 }
 .caseStudyContainer2>.sideImage2{
@@ -317,7 +317,7 @@ td{
     grid-column: 2;
     grid-row: 2;
     margin: 12px;
-    background: rgba(211, 211, 211, 0.51);
+    background: rgba(211, 211, 211, 0.25);
     padding: 5%;
 }
 .caseStudyContainer2>.sideImage3{
@@ -329,7 +329,7 @@ td{
     grid-column: 2;
     grid-row: 3;
     margin: 12px;
-    background: rgba(211, 211, 211, 0.51);
+    background: rgba(211, 211, 211, 0.25);
     padding: 5%;
 }
 /************************************************************/

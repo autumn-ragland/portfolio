@@ -31,8 +31,10 @@
     </section>
     <!--quick facts sidebar-->
     <section class="quickFacts">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultricies libero a pellentesque
-            venenatis.</p>
+        <p>This two week self-directed project is called Safe Travels. Safe Travels is a user directed travel review
+            website. This site allows users to create travel logs for their onw self reflection and to help others plan
+            trip in the future.
+        </p>
         <br>
         <br>
         <p><a href="http://app4.autumnragland.com/" target="_blank">View</a> the project </p>
@@ -40,17 +42,16 @@
     </section>
     <!--description of content on page-->
     <section class="description">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultricies libero a pellentesque
-            venenatis. Fusce scelerisque et ligula in tristique. Nunc sagittis convallis risus, id luctus magna lacinia
-            vel. Integer venenatis nisi a metus lacinia, mattis auctor dolor posuere. Curabitur scelerisque fringilla
-            vestibulum. Duis cursus, ante non rutrum tempus, diam mauris porta velit, vitae aliquet felis turpis at
-            orci. In hac habitasse platea dictumst. Nulla ligula neque, interdum a gravida sit amet, placerat id ex.
+        <p>Safe Travels is my passion project from CodeCrew Coding School. A passion project is a self directed project
+            based around a topic that we are interested in and using a framework or stack that we are comfortable with.
+            I chose to build and website centered around travel using the Django framework. I made a project in March
+            using Django that I really enjoyed so I decided to use tat framework again. I have a passion for travel and
+            have taken several trips in the US and Europe.
         </p>
         <p>
-            Pellentesque eget imperdiet augue. Morbi blandit mattis libero. Maecenas a urna at mi rutrum consequat.
-            Fusce sed mi augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris vehicula,
-            justo quis bibendum consequat, augue dui imperdiet ligula, ornare ultrices augue nisi at tortor.
+            This project was both challenging and exciting. The main functionality of the site is to view travel logs
+            created by users and create your own. Your travel logs can be viewed from your profile as well as a map with
+            all of your destinations. Destination for all users can be viewed from the home page and travel logs can be searched.
         </p>
     </section>
     <!--examples/screenshots/any supporting info-->
@@ -58,35 +59,45 @@
         <!--supporting image1-->
         <section class="sideImage1">
             <img class="caseStudyImage"
-                 src="../../imported%20files/safe_travels/search.png"
+                 src="../../imported%20files/safe_travels/profile.png"
                  alt="">
         </section>
         <!--supporting text1-->
         <section class="sideText1">
             <p>
-                Pellentesque eget imperdiet augue. Morbi blandit mattis libero. Maecenas a urna at mi rutrum consequat.
-                Fusce sed mi augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-                Curae;
-                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris
-                vehicula,
-                justo quis bibendum consequat, augue dui imperdiet ligula, ornare ultrices augue nisi at tortor.
+                The Safe Travels Profile Page shows a users travel logs, destinations, and gives them the option to add
+                a log. Each profile page renders a map from the google maps api with the destinations of the users
+                travel logs marked on the map. This is a fun and interactive way to keep up with where you have been.
             </p>
         </section>
         <!--supporting image2-->
         <section class="sideImage2">
             <img class="caseStudyImage"
-                 src="../../imported%20files/safe_travels/profile.png"
+                 src="../../imported%20files/safe_travels/logDetailCRUD.png"
                  alt="">
         </section>
         <!--supporting text2-->
         <section class="sideText2">
             <p>
-                Pellentesque eget imperdiet augue. Morbi blandit mattis libero. Maecenas a urna at mi rutrum consequat.
-                Fusce sed mi augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-                Curae;
-                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris
-                vehicula,
-                justo quis bibendum consequat, augue dui imperdiet ligula, ornare ultrices augue nisi at tortor.
+                Each travel log has a details page that is accessed by clicking on the name of the destination. If the
+                logged in user created the travel log they have the access to edit and delete that log. Otherwise a user
+                can simply view the log information. Each log has the author of the log, the date of the trip, a summary of the author's
+                experience, ratings of the destination and an optional image.
+            </p>
+        </section>
+        <!--supporting image3-->
+        <section class="sideImage3">
+            <img class="caseStudyImage"
+                 src="../../imported%20files/safe_travels/search.png"
+                 alt="">
+        </section>
+        <!--supporting text2-->
+        <section class="sideText3">
+            <p>
+                The most complicated part of this project was the search. When a location is searched from the home page
+                the result of that location from the google maps api and the sql database. Making a search request and
+                rendering the results required me to make a request through the python client to the google maps api
+                then parsed the returned json data and render it as a marker.
             </p>
         </section>
     </div>
