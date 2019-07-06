@@ -472,6 +472,11 @@ td{
     grid-row: 14;
     margin: 1% 1% 1% 1%;
 }
+.reflectionSection24{
+    grid-column: 2/3;
+    grid-row: 15;
+    margin: 1% 1% 1% 1%;
+}
 .container4>.theNextPage{
     position: fixed;
     top: 50%;
