@@ -1,9 +1,9 @@
 /*MULTI PAGE STYLES*/
-@media only screen and (max-width: 500px) {
+/* @media only screen and (max-width: 500px) {
     .about-section{
         width: 100%;
     }
-  }
+} */
 div{
     margin-top:1%;
     margin-bottom: 1%;
@@ -32,9 +32,6 @@ button{
 }
 /*style links*/
 a{
-    color: red;
-    font-weight: bold;
-    text-decoration: none;
     font-family: 'Inconsolata', monospace;
     padding-top: 10px;
     padding-bottom: 10px;
