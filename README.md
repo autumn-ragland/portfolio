@@ -2,7 +2,7 @@
 
 ## Welcome
 
-The first iterationa of this portfolio was created as a part of the 6 month software devlopemnt bootcamp **CodeCrew Code School** in Feburary 2019. This site showcases my skills, projects, goals, achivments, and work experineces! Check it out and if you have any questions, comments, or just wanna chat fill out the short form on the contact me page. This site is ever evolving so be sure to check back every once in a while!
+The first iteration of this portfolio was created as a part of the 6 month software devlopemnt bootcamp **CodeCrew Code School** in Feburary 2019. This site showcases my skills, projects, goals, achivments, and work experineces! Check it out and if you have any questions, comments, or just wanna chat fill out the short form on the contact me page. This site is ever evolving so be sure to check back every once in a while!
 
 ## Site Layout
 #### About

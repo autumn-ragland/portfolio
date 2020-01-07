@@ -1,28 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="../CSS%20and%20JS/animate.css">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
     <link rel="stylesheet" href="../CSS%20and%20JS/port.css">
-    <script src="../CSS%20and%20JS/jQuery.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
-<div class="homeClass">
-    <!--header with page title and nav bar-->
-    <header class="navClass">
-        <h4 class="animated fadeIn slower">autumn ragland</h4>
-        <a href="index.html"><button><img src="../icons/homeicon.png" alt="circleicon"></button></a>
-        <a href="skills.html"><button id="skillsBtn"><img src="../icons/skillsison.png" alt="circleicon"></button></a>
-        <a href="resume.html"><button id="resumeBtn"><img src="../icons/resumeicon.png" alt="circleicon"></button></a>
-        <a href="projects.html"><button id="projectsBtn"><img src="../icons/projecticon.png" alt="circleicon"></button></a>
-        <a href="reflections.html"><button id="reflectionBtn"><img src="../icons/reflectionicon.png" alt="circleicon"></button></a>
-        <a href="contact.html"><button id="contactBtn"><img src="../icons/contacticon.png" alt="circleicon"></button></a>
-    </header>
-    <!--about section-->
-    <section class="aboutClass animated fadeIn">
-        <h4>about me</h4>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light nav-margins">
+        <a class="navbar-brand" href="./index.html">Autumn Ragland Creative Solutions</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="./index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="./skills.html">Skills</a>
+            <a class="nav-item nav-link" href="./resume.html">Resume</a>
+            <a class="nav-item nav-link" href="./projects.html">Projects</a>
+            <a class="nav-item nav-link" href="./reflections.html">Reflections</a>
+            <a class="nav-item nav-link" href="./contact.html">Contact</a>
+          </div>
+        </div>
+    </nav>
+<div>
+    <section class="profile-image">
+        <img id="profile-image-sizing" src="/imported files/png_profile_text.png" alt="profile image">
+    </section>
+    <section class="about-section">
         <p>
             I am currently pursing a career in full-stack development. I spent six months in <a
                 href="https://www.code-crew.org/codeschool" target="_blank">CodeCrew</a>, an intensive coding
@@ -35,15 +43,17 @@
             towns offer inspiration and support at every turn. I aspire to tap into the pulsing vein of development that
             runs throughout the city and add to its energy tenfold.
         </p>
-
+        <section>
+            <a href="contact.html"> Email Me</a>
+            <br>
+            <a href="https://www.instagram.com/autumn_tech/" target="_blank">Instagram @autumn_tech</a> 
+            <br>
+            <a href="https://www.linkedin.com/in/autumn-ragland/" target="_blank">LinkedIn /autumn-ragland</a> 
+        </section>
     </section>
-    <!--contact section-->
-    <section class="contactClass animated fadeIn">
-        <a href="contact.html"> Contact |</a>
-        <a href="https://www.instagram.com/autumn_tech/" target="_blank">  Follow |</a>
-        <a href="https://www.linkedin.com/in/autumn-ragland/" target="_blank"> Connect</a>
-    </section>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </div>
-<script src="../CSS%20and%20JS/port.js"></script>
 </body>
 </html>
