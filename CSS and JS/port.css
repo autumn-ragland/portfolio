@@ -59,6 +59,9 @@ a{
     text-align: justify;
     padding: 10px;
 }
+.links-section{
+    text-align: center;
+}
 /************************************************************/
 /*SKILLS*/
 
@@ -83,13 +86,27 @@ a{
 }
 .mock-wiki{
     width:45%;
+    float: left;
 }
 .mock-twitter{
     float: right;
     width:45%;
 }
 .safe-travels{
+    clear: both;
     width:45%;
+}
+.clicking-game{
+    float: left;
+    width:40%;
+}
+.memory-game{
+    width:40%;
+    float: right;
+}
+.todo-list{
+    width:40%;
+    clear: both;
 }
 /************************************************************/
 /*CASE STUDIES*/
@@ -134,16 +151,6 @@ a{
     grid-column: 1/3;
     grid-row: 3;
     margin: 12px;
-}
-.caseStudyContainer>.theNextPage{
-    position: fixed;
-    top: 50%;
-    left: 5%;
-}
-.caseStudyContainer>.thePreviousPage{
-    position: fixed;
-    top: 50%;
-    right: 5%;
 }
 .caseStudyContainer2{
     margin: 0;
@@ -340,20 +347,10 @@ a{
 }
 /*****************************************************************/
 /*contact page*/
-.iframeStyle{
-    margin-top: 5%;
-    margin-left: 25%;
-    margin-right: 25%;
-}
-#myContactPage>.theNextPage{
-    position: fixed;
-    top: 50%;
-    left: 5%;
-}
-#myContactPage>.thePreviousPage{
-    position: fixed;
-    top: 50%;
-    right: 5%;
+.contact-iframe{
+    margin-left: 5%;
+    /* width: 75%; */
+    text-align: center;
 }
 /*****************************************************************/
 /*error page*/

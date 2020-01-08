@@ -1,42 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>projects</title>
-    <!--all pages are styled in one CSS-->
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smaller Projects</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
     <link rel="stylesheet" href="../CSS%20and%20JS/port.css">
-    <link rel="stylesheet" href="../CSS%20and%20JS/animate.css">
-    <script src="../CSS%20and%20JS/jQuery.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
-<!--portfolio projects page-->
-<body class="projectsPage">
-<div class="container3">
-    <!--header with page title and nav bar-->
-    <header class="navClass">
-        <h4 class="animated fadeIn">previous projects</h4>
-        <a href="projects.html">Back to Projects</a>
-    </header>
-    <!--description of content on page-->
-    <section class="description">
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light nav-margins">
+        <a class="navbar-brand" href="./projects.html">Autumn Ragland Creative Solutions</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link" href="./index.html">Home</a>
+              <a class="nav-item nav-link" href="./skills.html">Skills</a>
+              <a class="nav-item nav-link active" href="./projects.html">Projects<span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link" href="./reflections.html">Reflections</a>
+              <a class="nav-item nav-link" href="./contact.html">Contact</a>
+            </div>
+          </div>
+    </nav>
+<div>
+    <section>
         <p>Quick and simple projects that I made at the beginning of my coding journey.</p>
     </section>
-    <!--image, description, link to github-->
-    <section class="projectSection1">
+    <section class="clicking-game">
         <a href="https://autumn-ragland.github.io/clickinggame/" target="_blank"><img class="projectImageResize" src="../imported%20files/clickingGame.png" alt="placeholder"></a>
         <p>This simple clicking game utilized HTML CSS and JQuery</p>
         <p><a href="https://autumn-ragland.github.io/clickinggame/" target="_blank">play it here</a></p>
     </section>
-    <section class="projectSection2">
+    <section class="memory-game">
         <a href="https://autumn-ragland.github.io/showhidegame/" target="_blank"><img class="projectImageResize" src="../imported%20files/showHide.png" alt="placeholder"></a>
         <p>This simple Show Hide Memory Game utilized HTML CSS and JQuery.</p>
         <p><a href="https://autumn-ragland.github.io/showhidegame/" target="_blank">play it here</a></p>
     </section>
-    <section class="projectSection3">
+    <section class="todo-list">
         <a href="https://autumn-ragland.github.io/simple-javavscript-project/" target="_blank"><img class="projectImageResize" src="../imported%20files/toDoList.png" alt="placeholder"></a>
         <p>This simple ToDo list was a self directed two day practice in JS after a month of almost exclusively python.</p>
         <p><a href="https://autumn-ragland.github.io/simple-javavscript-project/" target="_blank">use it here</a></p>
     </section>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </div>
-<script src="../CSS%20and%20JS/port.js"></script>
 </body>
 </html>
