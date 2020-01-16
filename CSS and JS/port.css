@@ -1,13 +1,15 @@
 /*MULTI PAGE STYLES*/
 div{
+    font-size: 18px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight: lighter;
+}
+.page-body{
     margin-top:1%;
     margin-bottom: 1%;
     margin-left: 5%;
     margin-right: 5%;
     padding: 1%;
-    font-size: 18px;
-    font-family: Tahoma, Geneva, sans-serif;
-    font-weight: lighter;
 }
 /*style page titles*/
 h4{
@@ -83,17 +85,10 @@ a{
     width:100%;
     height: auto;
 }
-.mock-wiki{
-    width:45%;
-    float: left;
-}
-.mock-twitter{
-    float: right;
-    width:45%;
-}
-.safe-travels{
-    clear: both;
-    width:45%;
+.card{
+    width: 100%; 
+    margin-bottom: 2%;
+    display: inline-block;
 }
 .clicking-game{
     float: left;

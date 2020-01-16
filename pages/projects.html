@@ -9,9 +9,8 @@
     <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
-<!--portfolio projects page-->
 <body class="projectsPage">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light nav-margins">
+    <nav class="navbar navbar-expand-lg nav-margin navbar-dark" style="background-color: #ff1900;">
         <a class="navbar-brand" href="./index.html">Autumn Ragland Creative Solutions</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -26,40 +25,44 @@
           </div>
         </div>
     </nav>
-<div>
+<div class="page-body">
     <section class="description">
         <p>This page includes projects I have worked on as a part of my coding
             bootcamp. Each project has a brief description and a link to the project itself or the
             GitHub repository with the project files. Check out some of my previous
-            projects <a href="previousProjects.html">here</a>.</p>
+            projects <a href="previousProjects.html" style="color: #FF9900;">here</a>.</p>
 
     </section>
-    <!--image, description, link to github-->
-<!--    <section class="projectSection1">-->
-<!--        <a href="https://autumn-ragland.github.io/clickinggame/" target="_blank"><img class="projectImageResize" src="../imported%20files/clickingGame.png" alt="placeholder"></a>-->
-<!--        <p>This simple clicking game utilized HTML CSS and JQuery</p>-->
-<!--        <p><a href="https://autumn-ragland.github.io/clickinggame/" target="_blank">play it here</a></p>-->
-<!--    </section>-->
-<!--    <section class="projectSection2">-->
-<!--        <a href="https://autumn-ragland.github.io/showhidegame/" target="_blank"><img class="projectImageResize" src="../imported%20files/showHide.png" alt="placeholder"></a>-->
-<!--        <p>This simple Show Hide Memory Game utilized HTML CSS and JQuery.</p>-->
-<!--        <p><a href="https://autumn-ragland.github.io/showhidegame/" target="_blank">play it here</a></p>-->
-<!--    </section>-->
-    <section class="mock-wiki">
-        <a href="case_studies/wiki_project.html"><img class="projectImageResize" src="../imported%20files/wiki_project/wiki_home-01.png" alt="project image"></a>
-        <p>Mock Wikipedia Site built with Django.</p>
-        <p><a href="case_studies/wiki_project.html">learn more here</a></p>
-    </section>
-    <section class="mock-twitter">
-        <a href="case_studies/twitter_project.html"><img class="projectImageResize" src="../imported%20files/twitter_project/twitterHomeNewUser.png" alt="project image"></a>
-        <p>Mock Twitter Site built with Mongo DB, Express/Node JS, and React.</p>
-        <p><a href="case_studies/twitter_project.html">learn more here</a></p>
-    </section>
-    <section class="safe-travels">
-        <a href="case_studies/safe_travels.html"><img class="projectImageResize" src="../imported%20files/safe_travels/homeNewUser.png" alt="project image"></a>
-        <p>Travel recommendation and review site built with Django and the Google Maps API.</p>
-        <p><a href="case_studies/safe_travels.html">learn more here</a></p>
-    </section>
+    <div class="card-deck">
+        <div class="card">
+            <img class="card-img-top" src="../imported%20files/wiki_project/wiki_home-01.png" alt="project image">
+            <div class="card-body">
+              <h5 class="card-title">Mock Wikipedia</h5>
+              <p class="card-text">Mock Wikipedia Site built with Django.<br>Date: March 2019<br>Programs: Django,Python,HTML</p>
+              <a a target="_blank" href="http://app1.autumnragland.com/"><button type="button" class="btn btn-outline-secondary btn-sm">View the Project</button></a>
+              <a target="_blank" href="https://github.com/cs-fullstack-2019-spring/project2-django-autumn-ragland"><button type="button" class="btn btn-outline-secondary btn-sm">View the Repo</button></a>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="../imported%20files/twitter_project/twitterHomeNewUser.png" alt="project image">
+            <div class="card-body">
+                <h5 class="card-title">Mock Twitter</h5>
+                <p class="card-text">Mock Twitter Site built with Mongo DB, Express/Node JS, and React.<br>Date: April 2019<br>Programs: Mongo DB, Express/Node JS, React</p>
+                <a href="http://app3.autumnragland.com/" target="_blank"><button type="button" class="btn btn-outline-secondary btn-sm">View the Project</button></a>
+              <a href="https://github.com/autumn-ragland/MERNTwitter" target="_blank"><button type="button" class="btn btn-outline-secondary btn-sm">View the Repo</button></a>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="../imported%20files/safe_travels/homeNewUser.png" alt="project image">
+            <div class="card-body">
+                <h5 class="card-title">Safe Travels</h5>
+                <p class="card-text">Travel recommendation and review site built with Django and the Google Maps API.<br>Date: June 2019<br>Programs: Django,Python,HTML, Google Maps API</p>
+                <a href="http://app4.autumnragland.com/" target="_blank"><button type="button" class="btn btn-outline-secondary btn-sm">View the Project</button></a>
+              <a href="https://github.com/autumn-ragland/passionProject" target="_blank"><button type="button" class="btn btn-outline-secondary btn-sm">View the Repo</button></a>
+            </div>
+          </div>
+    </div>
+    
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
