@@ -90,21 +90,9 @@ a{
     margin-bottom: 2%;
     display: inline-block;
 }
-.clicking-game{
-    float: left;
-    width:40%;
-}
-.memory-game{
-    width:40%;
-    float: right;
-}
-.todo-list{
-    width:40%;
-    clear: both;
-}
 /************************************************************/
 /*CASE STUDIES*/
-.caseStudyContainer{
+/* .caseStudyContainer{
     display: grid;
     grid-template-columns: 3fr 1fr 2fr;
     grid-template-rows: auto;
@@ -139,7 +127,7 @@ a{
     background: rgba(211, 211, 211, 0.25);
     padding: 15%;
     font-size: 20px;
-    /*text-align: justify;*/
+    text-align: justify;
 }
 .caseStudyContainer>.description{
     grid-column: 1/3;
@@ -190,155 +178,10 @@ a{
     margin: 12px;
     background: rgba(211, 211, 211, 0.25);
     padding: 5%;
-}
+} */
 /************************************************************/
 /*REFLECTIONS*/
 /*reflection grid*/
-.container4{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    text-align: justify;
-}
-.container4>.description{
-    grid-column: 1/2;
-    grid-row: 2;
-    margin: 1% 1% 1% 1%;
-    padding: 1%;
-}
-.container4>.vlogFrame{
-    grid-column: 2/3;
-    grid-row: 2;
-    margin: 1% 1% 1% 1%;
-    padding-top: 4%;
-    text-align: center;
-}
-.reflectionSection1{
-    grid-column: 1/2;
-    grid-row: 4;
-    margin: 1% 1% 1% 1%;
-}
-.reflectionSection2{
-    grid-column: 2/3;
-    grid-row: 4;
-    margin: 1% 1% 1% 1%;
-}
-.reflectionSection3{
-    grid-column: 1/2;
-    grid-row: 5;
-    margin: 1% 1% 1% 1%;
-}
-.reflectionSection4{
-    grid-column: 2/3;
-    grid-row: 5;
-    margin: 1% 1% 1% 1%;
-}
-.reflectionSection5{
-    grid-column: 1/2;
-    grid-row: 6;
-    margin: 1% 1% 1% 1%;
-}
-.reflectionSection6{
-    grid-column: 2/3;
-    grid-row: 6;
-    margin: 1% 1% 1% 1%;
-}
-.reflectionSection7{
-    grid-column: 1/2;
-    grid-row: 7;
-    margin: 1% 1% 1% 1%;
-}
-.reflectionSection8{
-    grid-column: 2/3;
-    grid-row: 7;
-    margin: 1% 1% 1% 1%;
-}
-.reflectionSection9{
-    grid-column: 1/2;
-    grid-row: 8;
-    margin: 1% 1% 1% 1%;
-}
-.reflectionSection10{
-    grid-column: 2/3;
-    grid-row: 8;
-    margin: 1% 1% 1% 1%;
-}
-.reflectionSection11{
-    grid-column: 1/2;
-    grid-row: 9;
-    margin: 1% 1% 1% 1%;
-}
-.reflectionSection12{
-    grid-column: 2/3;
-    grid-row: 9;
-    margin: 1% 1% 1% 1%;
-}
-.reflectionSection13{
-    grid-column: 1/2;
-    grid-row: 10;
-    margin: 1% 1% 1% 1%;
-}
-
-.reflectionSection14{
-    grid-column: 2/3;
-    grid-row: 10;
-    margin: 1% 1% 1% 1%;
-}
-.reflectionSection15{
-    grid-column: 1/2;
-    grid-row: 11;
-    margin: 1% 1% 1% 1%;
-}
-.reflectionSection16{
-    grid-column: 2/3;
-    grid-row: 11;
-    margin: 1% 1% 1% 1%;
-}
-.reflectionSection17{
-    grid-column: 1/2;
-    grid-row: 12;
-    margin: 1% 1% 1% 1%;
-}
-.reflectionSection18{
-    grid-column: 2/3;
-    grid-row: 12;
-    margin: 1% 1% 1% 1%;
-}
-.reflectionSection19{
-    grid-column: 1/2;
-    grid-row: 13;
-    margin: 1% 1% 1% 1%;
-}
-.reflectionSection20{
-    grid-column: 2/3;
-    grid-row: 13;
-    margin: 1% 1% 1% 1%;
-}
-.reflectionSection21{
-    grid-column: 1/2;
-    grid-row: 14;
-    margin: 1% 1% 1% 1%;
-}
-.reflectionSection22{
-    grid-column: 2/3;
-    grid-row: 14;
-    margin: 1% 1% 1% 1%;
-}
-.reflectionSection24{
-    grid-column: 1/2;
-    grid-row: 15;
-    margin: 1% 1% 1% 1%;
-}
-.container4>.theNextPage{
-    position: fixed;
-    top: 50%;
-    left: 5%;
-}
-.container4>.thePreviousPage{
-    position: fixed;
-    top: 50%;
-    right: 5%;
-}
 /*****************************************************************/
 /*contact page*/
 .contact-iframe{
