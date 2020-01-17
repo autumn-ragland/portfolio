@@ -68,16 +68,6 @@ a{
 
 /************************************************************/
 /*RESUME*/
-/*resume pdf iFrame sizing*/
-#resizeThisImage{
-    width:800px;
-    height: 1100px;
-    margin: 10px;
-    padding: 0;
-}
-.resume{
-    text-align: center;
-}
 /************************************************************/
 /*PROJECTS*/
 /*projects grid*/
