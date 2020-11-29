@@ -1,4 +1,7 @@
 /*MULTI PAGE STYLES*/
+nav {
+    background-color: #93857b
+}
 div{
     font-size: 18px;
     font-family: Tahoma, Geneva, sans-serif;
@@ -25,12 +28,14 @@ button{
     border: none;
     font-weight: bold;
     font-family: 'Inconsolata', monospace;
+    margin-top: 1%;
 }
 /*style links*/
 a{
     font-family: 'Inconsolata', monospace;
     padding-top: 10px;
     padding-bottom: 10px;
+    color: #a1723b;
 }
 .nav-margins{
     padding-left: 1%;
@@ -52,7 +57,7 @@ a{
     float: left;
 }
 #profile-image-sizing{
-    width: 90%;
+    width: 80%;
     height: auto;
 }
 .about-section{
