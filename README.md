@@ -8,10 +8,10 @@ The first iteration of this portfolio was created as a part of the 6 month softw
 #### About
 A brief explanation about my journey as well as links to all of my social media!
 #### Skills
-A list of the programs, software, hardware, and languages, and stacks that I am comfortable with as well as my skill level in each
+A list of the programs, software, hardware, and languages, and stacks that I am comfortable with as well as my skill level in each.
 #### Resume
-A pdf of my resume avalible for easy download
+A pdf of my resume avalible for easy download.
 #### Projects
-A comprehensive list of all projects that I worked on as a part of **CodeCrew Code School** and beyond
+A comprehensive list of all projects that I worked on as a part of **CodeCrew Code School** and beyond.
 #### Conact Me
-A quick and easy google form to reach out to me
+A quick and easy google form to reach out to me.
